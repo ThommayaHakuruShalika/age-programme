@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("age programme");
-        int age = 45;
+        int age = 100;
             if (age > 0 && age < 18)
             {
                  System.out.println("You are underage.");
@@ -54,10 +54,23 @@ public class App {
 
         if(age==100)
     {
-        for(int i=0;i<=3;i++)
+        for(int i=0;i<3;i++)
     {System.out.println("congratulations!");}
     }
 if (age>40 && age<50)
 {System.out.println("happy mid-life");}
+
+if (age<0 && age<120)
+    {System.out.println("you are going to konw that which group you belong ");}
+if(age<2)
+{System.out.println("you are a baby");}
+else if(3<age && age<39)
+{System.out.println("you are young adults");}
+else if(40<age && age<59)
+{System.out.println("you are middele aged adults");}
+else if(60<age && age<120)
+{System.out.println("you are old adults");}
+
+
     }
 }
