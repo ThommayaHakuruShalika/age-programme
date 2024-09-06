@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("age programme");
-        int age = 100;
+        int age = 40;
             if (age > 0 && age < 18)
             {
                  System.out.println("You are underage.");
@@ -70,6 +70,16 @@ else if(40<age && age<59)
 {System.out.println("you are middele aged adults");}
 else if(60<age && age<120)
 {System.out.println("you are old adults");}
+
+int y=age/50;
+if(y==1){
+System.out.println("congratulations! you are now half century");}
+else if(y==2){
+    System.out.println("congratulations! you are now century");}
+    else
+    {
+        System.out.println("counting days for your day");}
+
 
 
     }
