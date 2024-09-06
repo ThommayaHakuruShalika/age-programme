@@ -54,7 +54,7 @@ public class App {
 
         if(age==100)
     {
-        for(int i=0;i<3;i++)
+        for(int i=0;i<=3;i++)
     {System.out.println("congratulations!");}
     }
 if (age>40 && age<50)
